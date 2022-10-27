@@ -1,0 +1,18 @@
+1 - installer un nouveau projet
+2 - installer tailwind
+3 - développer son projet
+
+Contentful
+///////////////
+1 - inscription ou connexion 
+2 - création des content-model (migration)
+3 - rajoute 3items à mon content-model
+
+Nextjs
+//////
+1 - install contentful = npm i contentful
+2 - connexion à l'API contentful
+3 - créer un fichier .env et vérifier dans gitignore que c'est ignoré (grisé)
+4 - dans .env créer des variables d'environement en uppercase préfixé par NEXT_PUBLIC
+5 - Coller les variables d'environement récupérer dans contentful
+6 - Dupliquer de le fichier .env.local en .env-exemple pour aider la personne qui reprendra mon projet
