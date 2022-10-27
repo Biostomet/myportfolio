@@ -56,7 +56,7 @@ export default function show({ projet }) {
       metaContent={`Le projet ${title} est un projet fait avec...`}
       image={`http:${featuredImage.fields.file.url}`}
     >
-      <div className="flex flex-col items-center justify-center gap-20 mx-20">
+      <div className="flex  flex-col items-center justify-center gap-20 mx-20">
         <div className="">
           <p className="text-2xl font-bold uppercase text-blue-500">{title}</p>
           <div className="">{documentToReactComponents(description)}</div>
